@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.grid-container {
+  display: grid;
+  /*   background-color: rgb(88, 122, 211);
+  padding: 10px; */
+}
+.grid-container > div {
+  background-color: rgb(128, 158, 139);
+}
+#item1 {
+  grid-area: 1 / 1 / 4 / 13;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#item2 {
+  grid-area: 4 / 1 / 11 / 3;
+  width: 80px;
+}
+#item3 {
+  grid-area: 4 / 3 / 11 / 11;
+  background-image: url("https://img.freepik.com/premium-photo/abstract-black-textured-background-with-scratches_130265-12474.jpg");
+}
+#item4 {
+  grid-area: 4 / 11 / 11 / 13;
+  width: 80px;
+}
+#item5 {
+  grid-area: 11 / 1 / 13 / 13;
+  height: 150px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 20px;
+  background-color: black;
+}
+.flex-container1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.logo {
+  color: rgb(255, 223, 235);
+  padding: 25px;
+}
+.navbar {
+  padding: 50px 0px 0px 0px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(255, 223, 235);
+  padding: 10px;
+}
+.navbar a:hover {
+  color: black;
+  background-color: rgb(120, 120, 120);
+}
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 25%;
+  max-width: 25%;
+  /*   padding: 5px; */
+}
+.column > img {
+  margin-top: 5px;
+  vertical-align: middle;
+  width: 100%;
+}
